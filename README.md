@@ -94,7 +94,7 @@ Using the `Supertest` library, tests are organized into specific describe blocks
 The tests cover responses for 
 
 - the best profession and best clients APIs
-- contract retrieval with proper authentication
+- contract retrieval with proper authentication.
 - job payment processes. 
 
 Edge cases, such as invalid date formats and insufficient funds, are also addressed to ensure the integrity and reliability of the application. After executing the tests, database connections are closed to maintain a clean state, further enhancing test reliability.
